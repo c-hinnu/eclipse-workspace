@@ -1,0 +1,32 @@
+{
+
+  "users":
+  [
+    {
+      "firstName": "abc",
+      "lastname": "bcd",
+      "age": 30
+    },
+    {
+      "firstName": "ac",
+      "lastname": "bd",
+      "age": 40
+    }
+  ],
+
+  "managers": 
+  [
+    {
+      "name": "ss",
+      "id": 123,
+      "loc": "tcr"
+    },
+    {
+      "name": "ssa",
+      "id": 1234,
+      "loc": "tvm"
+    }
+
+
+  ]
+}

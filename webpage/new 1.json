@@ -1,0 +1,18 @@
+{
+        "users":
+            [
+                {
+                   "firstName":"abc",
+                   "lastname" :"bcd",
+                   "age"      :30             
+                },
+                {
+                   "firstName":"abc",
+                   "lastname" :"bcd",
+                   "age"      :30             
+},
+
+
+]
+
+}

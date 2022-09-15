@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<root>
+        <users>
+		    <firstname>abc</firstname>
+			<lastname>bcd</lastname>
+			<age>30</age>
+		</users>
+		
+		<users>
+		    <firstname>ac</firstname>
+			<lastname>bd</lastname>
+			<age>40</age>
+		</users>
+		
+		<managers>
+		     <name>ss</name>
+			 <id>123</id>
+			 <loc>tcr</loc>
+	    </managers>
+		   
+		<managers>
+		     <name>ssa</name>
+			 <id>1234</id>
+			 <loc>tvm</loc>
+	    </managers>
+		   
+		
+		
