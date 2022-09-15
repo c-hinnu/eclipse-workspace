@@ -1,0 +1,31 @@
+package hello;
+
+import java.util.Scanner;
+
+public class fib {
+
+	public static void main(String[] args) {
+		
+		int t1=0,t2=1,t3,i,num;
+		t3=t2+t1;
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter limit");
+		num=s.nextInt();
+	System.out.println(t1);
+	System.out.println(t2);
+	for(i=3;i<=num;i++)
+	{
+	
+	System.out.println(t3);
+	t2=t3;
+	t1=t2;
+	t3=t2+t1;
+	
+	}
+	
+	
+	
+
+	}
+
+}

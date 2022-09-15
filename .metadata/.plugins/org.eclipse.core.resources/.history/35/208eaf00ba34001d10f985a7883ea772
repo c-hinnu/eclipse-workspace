@@ -1,0 +1,27 @@
+package thread;
+
+public class Thread1 {
+	String message;
+	
+	MyThread(String msg)
+	{
+	message=msg;	
+	}
+public void run()
+{
+	int count;
+	for(count=0;count<=5;count++)
+	{
+		try
+		{
+			
+		}
+	}
+}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

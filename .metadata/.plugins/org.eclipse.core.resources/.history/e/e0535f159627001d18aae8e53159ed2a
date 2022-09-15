@@ -1,0 +1,22 @@
+package hello;
+
+import java.util.Scanner;
+
+public class factorial {
+
+	public static void main(String[] args) {
+		 int x;
+		 int i;
+		 int sum=1;
+	       Scanner s=new Scanner(System.in);
+			System.out.println("enter number");
+			x=s.nextInt();
+			for(i=1;i<x;i++) {
+				sum=i*sum;
+				System.out.println(sum);
+			}
+			
+
+	}
+
+}
