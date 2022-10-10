@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  First Number:<input type="text" id="first"/><br>  
+  Second Number:<input type="text" id="second"/> <br>  
+  <button type="button"id="bt1"onClick="mul()">multiply</button>
+  <button type="button"id="bt2"onClick="div()">division</button>
+  <p id="p1"> </p>
+  <script>
+    function mul()
+    {
+    a=document.getElementById("first").value;
+    b=document.getElementById("second").value;
+    c=a*b;
+    document.getElementById("p1").innerHTML="The result is"+c;
+}
+function div()
+    {
+    a=document.getElementById("first").value;
+    b=document.getElementById("second").value;
+    c=a/b;
+    document.getElementById("p1").innerHTML="The result is"+c;
+}
+
+
+  </script>
+
+</body>
+</html>
