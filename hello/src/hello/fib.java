@@ -13,7 +13,7 @@ public class fib {
 		num=s.nextInt();
 	System.out.println(t1);
 	System.out.println(t2);
-	for(i=3;i<=num;i++)
+	for(i=2;i<num;i++)
 	{
 	
 	System.out.println(t3);
