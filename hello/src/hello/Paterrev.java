@@ -13,10 +13,10 @@ public class Paterrev {
 			}
 			for(int j=i;j>1;j--)
 			{
-				System.out.print(1);
-				System.out.print(0);
+				System.out.print("*");
+				System.out.print("*");
 			}
-			System.out.print(1);
+			System.out.print("*");
 			System.out.println("");
 			
 		}
